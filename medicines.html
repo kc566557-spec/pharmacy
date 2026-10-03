@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Medicines | CarePlus Pharmacy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="site-nav"></div>
+    <section class="page-banner">
+        <div class="container"><span>CAREPLUS</span>
+            <h1>Medicines</h1>
+            <p>Browse our healthcare essentials.</p>
+        </div>
+    </section>
+    <section class="section-padding">
+        <div class="container">
+            <div class="row mb-4 align-items-center">
+                <div class="col-md-7">
+                    <h2>Popular Medicines</h2>
+                </div>
+                <div class="col-md-5"><input id="medicineSearch" class="form-control form-control-lg"
+                        placeholder="Search medicines..."></div>
+            </div>
+            <div class="row g-4" id="medicineList">
+                <div class="col-md-4 medicine-item" data-name="paracetamol">
+                    <div class="product-card">
+                        <div class="product-icon">💊</div>
+                        <h4>Paracetamol 500mg</h4>
+                        <p>Common fever and pain relief.</p><strong>₹25</strong><button
+                            class="btn btn-primary w-100 mt-3" onclick="showMessage('Paracetamol added to cart')">Add to
+                            Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 medicine-item" data-name="vitamin c">
+                    <div class="product-card">
+                        <div class="product-icon">🍊</div>
+                        <h4>Vitamin C Tablets</h4>
+                        <p>Daily nutritional supplement.</p><strong>₹120</strong><button
+                            class="btn btn-primary w-100 mt-3" onclick="showMessage('Vitamin C added to cart')">Add to
+                            Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 medicine-item" data-name="antacid">
+                    <div class="product-card">
+                        <div class="product-icon">🧪</div>
+                        <h4>Antacid Tablets</h4>
+                        <p>Digestive care essential.</p><strong>₹80</strong><button class="btn btn-primary w-100 mt-3"
+                            onclick="showMessage('Antacid added to cart')">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 medicine-item" data-name="first aid">
+                    <div class="product-card">
+                        <div class="product-icon">🩹</div>
+                        <h4>First Aid Kit</h4>
+                        <p>Useful emergency care supplies.</p><strong>₹299</strong><button
+                            class="btn btn-primary w-100 mt-3" onclick="showMessage('First Aid Kit added to cart')">Add
+                            to Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 medicine-item" data-name="cough syrup">
+                    <div class="product-card">
+                        <div class="product-icon">🍯</div>
+                        <h4>Cough Syrup</h4>
+                        <p>Everyday respiratory care.</p><strong>₹95</strong><button class="btn btn-primary w-100 mt-3"
+                            onclick="showMessage('Cough Syrup added to cart')">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 medicine-item" data-name="thermometer">
+                    <div class="product-card">
+                        <div class="product-icon">🌡️</div>
+                        <h4>Digital Thermometer</h4>
+                        <p>Quick temperature checking.</p><strong>₹199</strong><button
+                            class="btn btn-primary w-100 mt-3" onclick="showMessage('Thermometer added to cart')">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">© 2026 CarePlus Pharmacy</div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
